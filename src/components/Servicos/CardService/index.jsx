@@ -1,11 +1,11 @@
 export function CardService(){
   return (
-    <div className="w-44 h-44 bg-black rounded-xl text-white p-8 flex flex-col items-center justify-center text-center gap-4 cursor-pointer">
+    <div className="w-44 h-44 bg-verdeclaro rounded-xl font-medium p-8 flex flex-col items-center justify-center text-center gap-4 cursor-pointer shadow-md shadow-black">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="32"
         height="32"
-        fill="currentColor"
+        fill="black"
         class="bi bi-airplane"
         viewBox="0 0 16 16"
       >

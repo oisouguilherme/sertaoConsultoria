@@ -1,18 +1,21 @@
-import logo from '../../assets/logo.png'
+import logo from "../../assets/logo.png";
 
-export function Header(){
+export function Header() {
   return (
-    <div className=" bg-black flex justify-between items-center text-white px-24 py-4">
-      <img className="h-28" src={logo} alt="logo da empresa" />
-      <ul className='flex space-x-8 text-xl font-bold'>
-        <li>
+    <div className=" flex justify-between items-center px-24 py-6">
+      <img className="h-20" src={logo} alt="logo da empresa" />
+      <ul className="flex space-x-8 text-xl font-bold">
+        <li className="hover:scale-110 duration-300 hover:text-verde">
           <a href="#">Inicio</a>
         </li>
-        <li>
-          <a href="#">História</a>
+        <li className="hover:scale-110 duration-300 hover:text-verde">
+          <a href="#">Sobre Nós</a>
         </li>
-        <li>
+        <li className="hover:scale-110 duration-300 hover:text-verde">
           <a href="#">Parceiros</a>
+        </li>
+        <li className="hover:scale-110 duration-300 hover:text-verde">
+          <a href="#">Fale conosco</a>
         </li>
       </ul>
     </div>
