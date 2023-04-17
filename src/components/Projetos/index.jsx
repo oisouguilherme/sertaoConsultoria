@@ -36,27 +36,32 @@ export function Projetos(){
         >
           <SwiperSlide>
             <div className='w-96'>
-              <img className='h-96 mx-auto w-80' src={projeto1} alt="" />
+              <img className='h-96 mx-auto w-80 object-cover' src={projeto5} alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className='w-96'>
-              <img className='h-96 mx-auto w-80' src={projeto2} alt="" />
+              <img className='h-96 mx-auto w-80 object-cover ' src={projeto2} alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className='w-96'>
-              <img className='h-96 mx-auto w-80' src={projeto3} alt="" />
+              <img className='h-96 mx-auto w-80 object-cover' src={projeto3} alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className='w-96'>
-              <img className='h-96 mx-auto w-80' src={projeto4} alt="" />
+              <img className='h-96 mx-auto w-80 object-cover' src={projeto4} alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className='w-96 '>
-              <img className='h-96 mx-auto w-80' src={projeto5} alt="" />
+              <img className='h-96 mx-auto w-80 object-cover' src={projeto1} alt="" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='w-96 '>
+              <img className='h-96 mx-auto w-80 object-cover' src={projeto6} alt="" />
             </div>
           </SwiperSlide>
         </Swiper>

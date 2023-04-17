@@ -1,7 +1,7 @@
 import logo from '../../assets/logo.png'
 export function Parceiros(){
   return(
-    <div className="md:px-24 text-center py-12 space-y-12 flex flex-col items-center">
+    <section id='Parceiros' className="md:px-24 text-center py-12 md:pt-32 space-y-12 flex flex-col items-center">
       <h2 className='text-4xl font-bold text-verde'>Alguns dos nossos parceiros</h2>
       <div className='w-2/3 flex justify-center gap-8 flex-wrap'>
         <a href="#">
@@ -29,6 +29,6 @@ export function Parceiros(){
           <img className='h-20' src={logo} alt="" />
         </a>
       </div>
-    </div>
+    </section>
   )
 }

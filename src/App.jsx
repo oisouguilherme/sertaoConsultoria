@@ -9,21 +9,24 @@ import { Projetos } from "./components/Projetos";
 import { NossoTime } from "./components/NossoTime";
 import { Orcamento } from "./components/Orcamento";
 import { Footer } from "./components/Footer";
+import Nav from "./components/Menu";
 
 function App() {
   return (
     <div className="bg-gray-100">
-      <Header/>
-      <Main />
-      <Consultoria />
-      <Servicos />
-      <NossaHistoria/>
-      <NossoValor />
-      <Parceiros/>
-      <Projetos/>
-      <NossoTime/>
-      <Orcamento/>
-      <Footer/>
+      <Nav/>
+      <div className="mt-20 md:mt-28">
+        <Main />
+        <Consultoria />
+        <Servicos />
+        <NossaHistoria/>
+        <NossoValor />
+        <Parceiros/>
+        <Projetos/>
+        <NossoTime/>
+        <Orcamento/>
+        <Footer/>
+      </div>
     </div>
   );
 }

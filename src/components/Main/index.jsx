@@ -2,7 +2,7 @@ import "./Main.css";
 
 export function Main() {
   return (
-    <div className="bg-image w-full md:p-24 p-12 flex flex-col items-center gap-24">
+    <section id="Main" className="bg-image w-full md:p-32 p-12 flex flex-col items-center gap-24">
       <h1 className="text-white font-black text-6xl text-center">
         Deixe sua empresa dentro da legislação ambiental e cresça sem riscos!
       </h1>
@@ -11,6 +11,6 @@ export function Main() {
         href="#">
         Conheça mais
       </a>
-    </div>
+    </section>
   );
 }

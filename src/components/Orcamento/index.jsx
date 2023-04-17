@@ -17,7 +17,7 @@ export function Orcamento(){
   };
 
   return (
-    <div className="md:px-24 px-4 w-full py-12 space-y-12 flex flex-col items-center">
+    <section id='Orcamento' className="md:px-24 px-4 w-full py-12 md:py-32 space-y-12 flex flex-col items-center">
       <h2 className="text-4xl text-center font-bold text-verde">Faça o seu orçamento</h2>
       <form
         ref={form}
@@ -61,6 +61,6 @@ export function Orcamento(){
           value="Limpar" />
         </div>
       </form>
-    </div>
+    </section>
   );
 }
