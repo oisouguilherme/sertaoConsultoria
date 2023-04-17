@@ -3,10 +3,10 @@ import logo from '../../assets/logo.png'
 export function Footer(){
   return (
     <div className='bg-gray-200'>
-      <div className="px-24 pt-12 pb-4 flex justify-around ">
-        <div className="flex gap-16">
-          <img className='h-16' src={logo} alt="" />
-          <div className='space-y-2'>
+      <div className="md:px-24 px-8 pt-6 flex flex-col lg:flex-row justify-between items-center">
+        <div className="flex flex-col items-center md:items-start">
+          <img className='md:h-16 max-w-xs' src={logo} alt="" />
+          <div className='py-4'>
             <p className="font-bold text-lg">Nossas redes:</p>
             <div className="flex gap-4">
               <a className='hover:text-verde'
@@ -40,10 +40,13 @@ export function Footer(){
           </div>
         </div>
 
-        <div>
-          <p className="font-medium text-md">Sertões Consultoria</p>
-          <p className="font-medium text-md">CNPJ: 42.353.780/0001-01</p>
-          <p className="font-medium text-md">Rua Guimarães rosa quadra 3 lote 26 Cond terra park Arinos-MG</p>
+        <div className="font-medium text-md">
+          <p className='font-bold'>Nossos contatos:</p>
+          <p>sertões@sertoesconsultoria.com</p>
+          <p>(38) 9 9983-7693</p>
+          <p className='font-bold'>Sertões Consultoria</p>
+          <p>CNPJ: 42.353.780/0001-01</p>
+          <p>Rua Guimarães rosa quadra 3 lote 26 Cond terra park Arinos-MG</p>
           
         </div>
 
