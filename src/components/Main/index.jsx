@@ -3,7 +3,7 @@ import "./Main.css";
 import video from '../../assets/video.mp4'
 export function Main() {
   return (
-    <section id="Main" className="w-full md:p-44 p-12 flex flex-col items-center gap-24 relative ">
+    <section id="Main" className=" bg-image w-full md:p-44 p-12 flex flex-col items-center gap-24 relative ">
       <video 
       className="absolute top-0 h-full w-full object-cover"
       src={video} 

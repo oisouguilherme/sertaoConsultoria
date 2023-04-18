@@ -1,14 +1,17 @@
-import fotocasal from '../../assets/fotocasal.jpg'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import fotocasal from "../../assets/fotocasal.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 AOS.init();
 
-export function NossaHistoria(){
+export function NossaHistoria() {
   return (
-    <section id='NossaHist' className="lg:px-24 px-8 py-12 flex flex-col lg:flex-row gap-4 justify-around items-center text-center lg:text-start">
-      <div data-aos="fade-right" data-aos-delay="300"  className="md:w-1/2 space-y-8">
+    <section
+      id="NossaHist"
+      className="lg:px-24 px-8 py-12 flex flex-col lg:flex-row gap-4 justify-around items-center text-center lg:text-start"
+    >
+      <div className="md:w-1/2 space-y-8">
         <h2 className="text-5xl font-bold text-verde">Nossa história</h2>
-        <p className="text-2xl">
+        <p data-aos="fade-right" data-aos-delay="300" className="text-2xl">
           Em Ianna e João Rafael decidiram juntos usar o conhecimento que
           acumularam ao longo dos anos para tender diversa empresas para fundar
           a Serão Consultoria. Juntos, somam mais de 14 anos de trabalhos
@@ -25,7 +28,13 @@ export function NossaHistoria(){
           clientes recebem de forma rápida todas as atualizações necessárias.
         </p>
       </div>
-      <img data-aos="fade-left" data-aos-delay="300" className="w-96 cursor-pointer" src={fotocasal} alt="" />
+      <img
+        data-aos="fade-left"
+        data-aos-delay="300"
+        className="w-96 cursor-pointer"
+        src={fotocasal}
+        alt=""
+      />
     </section>
   );
 }

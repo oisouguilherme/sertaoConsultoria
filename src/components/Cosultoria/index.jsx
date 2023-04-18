@@ -12,11 +12,11 @@ export function Consultoria(){
       src={planta} 
       alt="" />
       <div 
-      data-aos="fade-down"
-      data-aos-delay="100"
+      
       className='md:w-1/2 space-y-8'>
         <h2 className='text-5xl font-bold text-verde'>Consultoria ambiental</h2>
-        <p className='text-2xl'>São diversas as normas ambientais do país e para que sua empresa não sofra penalidades é preciso que suas atividades estejam de acordo com elas, nós elaboramos todos os tipos de estudos e documentação para que você continue com suas atividades. Você não precisa se preocupar com as questões ambientais, isso nós fazemos pelo seu negócio.</p>
+        <p data-aos="fade-down"
+      data-aos-delay="100" className='text-2xl'>São diversas as normas ambientais do país e para que sua empresa não sofra penalidades é preciso que suas atividades estejam de acordo com elas, nós elaboramos todos os tipos de estudos e documentação para que você continue com suas atividades. Você não precisa se preocupar com as questões ambientais, isso nós fazemos pelo seu negócio.</p>
       </div>
     </div>
   )

@@ -1,5 +1,4 @@
 import { Consultoria } from "./components/Cosultoria";
-import { Header } from "./components/Header";
 import { Main } from "./components/Main";
 import { NossaHistoria } from "./components/NossaHistoria";
 import { NossoValor } from "./components/NossoValor";
@@ -9,7 +8,7 @@ import { Projetos } from "./components/Projetos";
 import { NossoTime } from "./components/NossoTime";
 import { Orcamento } from "./components/Orcamento";
 import { Footer } from "./components/Footer";
-import Nav from "./components/Menu";
+import Nav from "./components/Nav";
 
 function App() {
   return (
