@@ -10,7 +10,7 @@ import logo6 from '../../assets/logos/logo6.png'
 export function Parceiros(){
   return(
     <section id='Parceiros' className="md:px-24 text-center py-12 md:pt-32 space-y-12 flex flex-col items-center">
-      <h2 className='text-4xl font-bold text-verde'>Alguns dos nossos parceiros</h2>
+      <h2 className='text-5xl font-bold text-verde'>Alguns dos nossos parceiros</h2>
       <div className='w-2/3 flex justify-center items-center gap-8 flex-wrap'>
         <a href="#" className='hover:scale-110 duration-300'>
           <img className='h-28' src={logo1} alt="" />

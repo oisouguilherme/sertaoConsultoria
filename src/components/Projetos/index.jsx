@@ -17,7 +17,7 @@ import 'swiper/css/scrollbar';
 export function Projetos(){
   return (
     <div className="md:px-24 px-4 text-center py-12 space-y-12 flex flex-col items-center">
-      <h2 className="text-4xl font-bold text-verde">Alguns projetos</h2>
+      <h2 className="text-5xl font-bold text-verde">Alguns projetos</h2>
       
         <Swiper
           modules={[Navigation, Pagination]}

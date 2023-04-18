@@ -4,7 +4,7 @@ export function NossaHistoria(){
   return (
     <section id='NossaHist' className="lg:px-24 px-8 py-12 flex flex-col lg:flex-row gap-4 justify-around items-center text-center lg:text-start">
       <div className="md:w-1/2 space-y-8">
-        <h2 className="text-4xl font-bold text-verde">Nossa história</h2>
+        <h2 className="text-5xl font-bold text-verde">Nossa história</h2>
         <p className="text-2xl">
           Em Ianna e João Rafael decidiram juntos usar o conhecimento que
           acumularam ao longo dos anos para tender diversa empresas para fundar
