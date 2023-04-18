@@ -1,4 +1,4 @@
-import planta from '../../assets/planta.jpg'
+import planta from '../../assets/planta.png'
 
 export function Consultoria(){
   return(

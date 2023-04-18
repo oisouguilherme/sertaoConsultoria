@@ -49,7 +49,7 @@ const Nav = () => {
           {Links.map((link) => (
             <li
               key={link.name}
-              className="md:ml-8 text-xl md:my-0 my-7 hover:scale-110 hover:text-verde font-bold cursor-pointer duration-300"
+              className="md:ml-8 text-xl md:my-0 my-7 text-verde hover:scale-110 hover:text-verdeclaro font-bold cursor-pointer duration-300"
             >
               <Link smooth={true} duration={500} to={link.link}>
                 {link.name}

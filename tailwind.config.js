@@ -8,7 +8,9 @@ export default {
     extend: {
       colors: {
         verde:'#525c2e',
-        verdeclaro:'#a3c261'
+        verdeclaro:'#a3c261',
+        marrom:'#8b5742',
+        marromclaro:'#d3a27f'
         },
     },
     
