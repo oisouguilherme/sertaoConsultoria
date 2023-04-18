@@ -1,4 +1,4 @@
-import zap from '../../assets/zap.svg'
+import zap from "../../assets/zap.svg";
 
 export function Orcamento() {
   return (
@@ -6,10 +6,16 @@ export function Orcamento() {
       id="Orcamento"
       className="md:px-32 px-4 w-full py-12 space-y-12 flex flex-col items-center lg:flex-row justify-between bg-marromclaro"
     >
-      <h2 className="text-5xl font-bold text-center lg:text-start text-white lg:w-1/2">
+      <h2
+        data-aos="fade-right"
+        className="text-5xl font-bold text-center lg:text-start text-white lg:w-1/2"
+      >
         Isso é tudo! <br /> Agora chegou o momento de nos contratar.
       </h2>
-      <a className="flex items-center justify-center py-4 rounded-lg gap-4 text-white font-bold text-2xl hover:scale-110 duration-300 bg-verdezap shadow-lg shadow-black w-72 sm:w-80" href="#">
+      <a
+        className="flex items-center justify-center py-4 rounded-lg gap-4 text-white font-bold text-2xl hover:scale-110 duration-300 bg-verdezap shadow-lg shadow-black w-72 sm:w-80"
+        href="#"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"

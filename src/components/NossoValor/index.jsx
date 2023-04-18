@@ -8,7 +8,7 @@ export function NossoValor(){
     <div data-aos="fade-right"
     data-aos-delay="300" className="lg:px-24 px-8 py-12 flex gap-12 justify-around flex-col-reverse lg:flex-row items-center text-center lg:text-start">
       <img 
-      className="lg:w-1/3 sm:w-1/2 rounded-md shadow-lg shadow-black cursor-pointer" 
+      className="lg:w-1/3 sm:w-1/2 cursor-pointer" 
       src={valor} alt="" />
       <div 
       className="space-y-8 lg:w-1/2">

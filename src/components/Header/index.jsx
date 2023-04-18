@@ -2,7 +2,7 @@ import logo from "../../assets/logo.png";
 
 export function Header() {
   return (
-    <div className="justify-between items-center px-4 sm:px-24 py-6 flex">
+    <div className="justify-between items-center px-4 sm:px-24 py-6 flex z-30">
       <img className="sm:h-20 h-14" src={logo} alt="logo da empresa" />
       <div className="lg:hidden">
         <svg

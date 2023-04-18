@@ -25,7 +25,7 @@ export function NossaHistoria(){
           clientes recebem de forma rápida todas as atualizações necessárias.
         </p>
       </div>
-      <img data-aos="fade-left" data-aos-delay="300" className="w-96 rounded-md shadow-lg shadow-black cursor-pointer" src={fotocasal} alt="" />
+      <img data-aos="fade-left" data-aos-delay="300" className="w-96 cursor-pointer" src={fotocasal} alt="" />
     </section>
   );
 }

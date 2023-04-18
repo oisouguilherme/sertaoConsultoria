@@ -8,7 +8,7 @@ export function Consultoria(){
     <div className='lg:px-24 px-8 pt-32 flex flex-col gap-8 lg:flex-row justify-around items-center text-center lg:text-start'>
       <img data-aos="fade-up"
       data-aos-delay="100"
-      className='w-96 rounded-md shadow-lg shadow-black cursor-pointer' 
+      className='w-96 cursor-pointer' 
       src={planta} 
       alt="" />
       <div 
