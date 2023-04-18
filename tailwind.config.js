@@ -10,7 +10,8 @@ export default {
         verde:'#525c2e',
         verdeclaro:'#a3c261',
         marrom:'#8b5742',
-        marromclaro:'#d3a27f'
+        marromclaro:'#d3a27f',
+        verdezap: '#34af23'
         },
     },
     
