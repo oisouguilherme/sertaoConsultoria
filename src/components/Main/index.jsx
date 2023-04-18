@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 import "./Main.css";
-import video from '../../assets/video.webm'
+import video from '../../assets/video.mp4'
 export function Main() {
   return (
     <section id="Main" className="w-full md:p-44 p-12 flex flex-col items-center gap-24 relative ">
