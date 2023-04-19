@@ -14,7 +14,7 @@ export function NossoValor() {
         alt=""
       />
       <div className="space-y-8 lg:w-1/2">
-        <h2 className="text-5xl font-bold text-verde">Em que acreditamos</h2>
+        <h2 className="text-4xl font-bold text-verde">Em que acreditamos</h2>
         <p data-aos="fade-right" data-aos-delay="300" className="text-2xl">
           <strong>Missão:</strong> Permitir que os empreendimentos trabalhem
           alinhados com as legislações ambientas vigentes para que possam se

@@ -15,7 +15,7 @@ import "swiper/css/scrollbar";
 export function Projetos() {
   return (
     <div className=" md:px-24 px-4 text-center py-12 space-y-12 flex flex-col items-center">
-      <h2 className="text-5xl font-bold text-verde">Alguns projetos</h2>
+      <h2 className="text-4xl font-bold text-verde">Alguns projetos</h2>
 
       <Swiper
         modules={[Navigation, Pagination]}
@@ -46,7 +46,7 @@ export function Projetos() {
         <SwiperSlide>
           <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
             <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
-              Inventário Subetação
+              Inventário Subestação
             </p>
             <img
               className="h-96 mx-auto w-full object-cover"
@@ -70,7 +70,7 @@ export function Projetos() {
         <SwiperSlide>
           <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
             <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
-              Inventário Subetação
+              Inventário Subestação
             </p>
             <img
               className="h-96 mx-auto w-full object-cover"

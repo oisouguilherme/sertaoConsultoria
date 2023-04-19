@@ -1,4 +1,4 @@
-import imagem from "../../assets/equipe.jpg";
+import servicos from "../../assets/servicos.jpg";
 
 export function Servicos() {
   return (
@@ -145,7 +145,7 @@ export function Servicos() {
             Laudo de avaliação rural
           </li>
         </ul>
-        <img className="lg:w-1/2" src={imagem} alt="" />
+        <img className="lg:w-1/2" src={servicos} alt="" />
       </div>
     </section>
   );

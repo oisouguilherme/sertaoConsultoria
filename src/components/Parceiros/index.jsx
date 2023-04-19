@@ -12,7 +12,7 @@ export function Parceiros(){
     <section 
     id='Parceiros' 
     className="md:px-24 text-center py-12 md:pt-32 space-y-12 flex flex-col items-center">
-      <h2 className='text-5xl font-bold text-verde'>Alguns dos nossos parceiros</h2>
+      <h2 className='text-4xl font-bold text-verde'>Alguns dos nossos parceiros</h2>
       <div 
       data-aos="fade-up"
       data-aos-delay="300"  
