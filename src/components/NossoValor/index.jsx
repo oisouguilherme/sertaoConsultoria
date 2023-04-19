@@ -9,13 +9,19 @@ export function NossoValor() {
       <img
         data-aos="fade-right"
         data-aos-delay="300"
-        className="lg:w-1/3 sm:w-1/2 cursor-pointer"
+        data-aos-once="true"
+        className="md:w-1/2 cursor-pointer"
         src={valor}
         alt=""
       />
       <div className="space-y-8 lg:w-1/2">
         <h2 className="text-4xl font-bold text-verde">Em que acreditamos</h2>
-        <p data-aos="fade-right" data-aos-delay="300" className="text-2xl">
+        <p
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-delay="300"
+          className="text-2xl"
+        >
           <strong>Missão:</strong> Permitir que os empreendimentos trabalhem
           alinhados com as legislações ambientas vigentes para que possam se
           desenvolver sem riscos ambientais, econômicos e sociais! <br />

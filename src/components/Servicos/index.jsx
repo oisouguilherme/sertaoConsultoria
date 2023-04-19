@@ -4,13 +4,14 @@ export function Servicos() {
   return (
     <section
       id="Servicos"
-      className="md:px-32 px-8 py-12 md:pt-32 space-y-12 flex flex-col items-center"
+      className="md:px-32 px-8 pt-32 md:pt-32 space-y-12 flex flex-col items-center"
     >
       <h2 className="text-4xl font-bold text-center text-verde">
         Principais serviços
       </h2>
       <div 
       data-aos="zoom-in"
+      data-aos-once="true"
       data-aos-delay="300"
       className="flex flex-col lg:flex-row items-center justify-around gap-8">
         <ul className="lg:w-1/2 text-2xl font-medium space-y-2 ">
