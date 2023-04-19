@@ -1,5 +1,5 @@
-import iana from '../../assets/iana.jpg'
-import joao from '../../assets/joao.jpg'
+import iana from '../../assets/Iana.jpg'
+import joao from '../../assets/Joao.jpg'
 
 export function NossoTime(){
   return (
