@@ -13,21 +13,19 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <div className="bg-gray-100">
-      <Nav/>
-      <div className="mt-20 md:mt-28">
-        <Main />
-        <Consultoria />
-        <Servicos />
-        <NossaHistoria/>
-        <NossoValor />
-        <Parceiros/>
-        <Projetos/>
-        <NossoTime/>
-        <Orcamento/>
-        <Footer/>
-      </div>
+      <Nav />
+      <Main />
+      <Consultoria />
+      <Servicos />
+      <NossaHistoria />
+      <NossoValor />
+      <Parceiros />
+      <Projetos />
+      <NossoTime />
+      <Orcamento />
+      <Footer />
     </div>
   );
 }
 
-export default App
+export default App;
