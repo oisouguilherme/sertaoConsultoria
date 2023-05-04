@@ -22,14 +22,9 @@ export function NossoValor() {
           data-aos-delay="300"
           className="text-2xl"
         >
-          <strong>Missão:</strong> Permitir que os empreendimentos trabalhem
-          alinhados com as legislações ambientas vigentes para que possam se
-          desenvolver sem riscos ambientais, econômicos e sociais! <br />
-          <strong>Visão:</strong> Resolver questões ambientais dos
-          empreendimentos com integridade, honestidade e transparência! <br />
-          <strong>Valores:</strong> Integridade, Honestidade, Amor pelo que faz,
-          Ética, Responsabilidade Ambiental Sustentabilidade, Equilíbrio,
-          Transparência
+          <strong>Missão:</strong> Permitir que os empreendimentos trabalhem alinhados com as legislações ambientais vigentes para que possam se desenvolver sem riscos ambientais, econômicos e sociais! <br />
+          <strong>Visão:</strong> Resolver questões ambientais dos empreendimentos com integridade, honestidade e transparência! <br />
+          <strong>Valores:</strong> Integridade, Honestidade, Amor pelo que faz, Ética, Responsabilidade Ambiental, Sustentabilidade, Equilíbrio, Transparência.
         </p>
       </div>
     </div>

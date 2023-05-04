@@ -1,4 +1,3 @@
-import logo from "../../assets/logo.png";
 import logo1 from "../../assets/logos/logo1.png";
 import logo2 from "../../assets/logos/logo2.png";
 import logo3 from "../../assets/logos/logo3.png";

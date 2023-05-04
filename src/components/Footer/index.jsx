@@ -42,7 +42,7 @@ export function Footer(){
 
         <div className="font-medium text-md">
           <p className='font-bold'>Nossos contatos:</p>
-          <p>sertões@sertoesconsultoria.com</p>
+          <p>sertoes@sertoesconsultoria.com</p>
           <p>(38) 9 9983-7693</p>
           <p className='font-bold'>Sertões Consultoria</p>
           <p>CNPJ: 42.353.780/0001-01</p>
