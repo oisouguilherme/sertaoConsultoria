@@ -34,7 +34,7 @@ export function Projetos() {
         <SwiperSlide>
           <div className="w-96 relative cursor-pointer hover:scale-95 duration-300">
             <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
-              Inventário Florestal
+              Inventario Florestal Complexo Fotovoltaico - Arinos
             </p>
             <img
               className="h-96 mx-auto w-full object-cover"
@@ -46,7 +46,7 @@ export function Projetos() {
         <SwiperSlide>
           <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
             <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
-              Inventário Subestação
+              Gestão Ambiental SE Coletora - Arinos
             </p>
             <img
               className="h-96 mx-auto w-full object-cover"
@@ -58,19 +58,7 @@ export function Projetos() {
         <SwiperSlide>
           <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
             <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
-              Inventário Florestal
-            </p>
-            <img
-              className="h-96 mx-auto w-full object-cover"
-              src={projeto4}
-              alt=""
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
-            <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
-              Inventário Subestação
+              Georreferenciamento Imóvel Rural -  Arinos
             </p>
             <img
               className="h-96 mx-auto w-full object-cover"
@@ -82,11 +70,11 @@ export function Projetos() {
         <SwiperSlide>
           <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
             <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
-              Inventário Florestal
+              Inventario Florestal - Parque Eólico Juramento/Francisco Sá
             </p>
             <img
               className="h-96 mx-auto w-full object-cover"
-              src={projeto6}
+              src={projeto4}
               alt=""
             />
           </div>
@@ -94,7 +82,7 @@ export function Projetos() {
         <SwiperSlide>
           <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
             <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
-              Invetário Fotovoltaico
+              Estudo de Fauna Complexo Fotovoltaico - Janaúba
             </p>
             <img
               className="h-96 mx-auto w-full object-cover"
@@ -103,6 +91,19 @@ export function Projetos() {
             />
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
+            <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
+              Inventario Florestal Linha de Transmissão Arinos
+            </p>
+            <img
+              className="h-96 mx-auto w-full object-cover"
+              src={projeto6}
+              alt=""
+            />
+          </div>
+        </SwiperSlide>
+        
        
       </Swiper>
     </div>

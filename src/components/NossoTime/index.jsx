@@ -1,5 +1,8 @@
 import iana from '../../assets/Iana.jpg'
 import joao from '../../assets/Joao.jpg'
+import marcos from '../../assets/marcos.jpeg'
+import murielly from '../../assets/murielly.jpeg'
+import jean from '../../assets/jean.jpeg'
 
 export function NossoTime(){
   return (
@@ -26,6 +29,24 @@ export function NossoTime(){
             João Rafael é formado em administração de empresas, pós graduado em
             Gestão Ambiental. Consultor ambiental na área de regularização
             ambiental e licenciamentos há 4 anos.
+          </p>
+        </div>
+        <div className="lg:w-full lg:px-24 flex-wrap lg:flex-nowrap justify-center text-center lg:text-start flex items-center gap-8 text-xl">
+          <img className='w-72 cursor-pointer' src={marcos} alt="" />
+          <p >
+          Marcos Vinícius Pacheco, formado em Ciências Humanas e Geografia, e mestre em Estudos Rurais. Atua na área da educação de geociências, educação Ambiental e patrimonial há nove anos, e vem atuando nos últimos quatro anos na área de consultoria ambiental.
+          </p>
+        </div>
+        <div className="lg:w-full lg:px-24 flex-wrap lg:flex-nowrap justify-center text-center lg:text-start flex items-center gap-8 text-xl">
+          <img className='w-72 cursor-pointer' src={jean} alt="" />
+          <p >
+          Jean-Paul Dardot é Engenheiro Ambiental, com mestrado na área de educação e doutorando em planejamento ambiental e energético. Tem vasta experiência com licenciamento e supervisão ambiental de empreendimentos de grande porte do setor energético, minerário, rodoviário e industrial.
+          </p>
+        </div>
+        <div className="lg:w-full lg:px-24 flex-wrap lg:flex-nowrap justify-center text-center lg:text-start flex items-center gap-8 text-xl">
+          <img className='w-72 cursor-pointer' src={murielly} alt="" />
+          <p >
+          Murielly Alves Coimbra, Possui graduação em Ciências Biológicas é mestranda no Programa de Zoologia da Universidade de Brasília. Atua na Consultoria Ambiental desde 2016, com a elaboração e execução de estudos faunísticos como Resgate, Inventário e Monitoramento da Fauna.
           </p>
         </div>
       </div>

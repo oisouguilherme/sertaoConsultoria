@@ -1,4 +1,4 @@
-import planta from "../../assets/planta.png";
+import planta from "../../assets/fauna.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 AOS.init();
