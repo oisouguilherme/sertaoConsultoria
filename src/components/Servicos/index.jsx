@@ -104,7 +104,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Autorização liara intervenção ambiental
+            Autorização para intervenção ambiental
           </li>
           <li className="flex">
             <svg
@@ -130,7 +130,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Toliografia
+            Topografia
           </li>
           <li className="flex">
             <svg

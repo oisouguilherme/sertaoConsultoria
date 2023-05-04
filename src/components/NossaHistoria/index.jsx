@@ -17,7 +17,7 @@ export function NossaHistoria() {
           data-aos-delay="300"
           className="text-2xl"
         >
-          Ianna e João Rafael decidiram juntos usar o conhecimento que acumularam ao longo dos anos para tender diversas empresas para fundar a Sertão Consultoria. Juntos, somam mais de 14 anos de trabalhos realizados na área ambiental. No início o projeto era ambicioso; atender empresas de diversos seguimentos e tamanhos para que pudessem estar em conformidade com a legislação ambiental. Não acreditamos apenas em cumprimento de normas, e sim o atendimento delas como parte importante no processo para que as empresas atendidas se tornassem mais sólidas, fortes e referência no mercado em que atuam. Hoje, centenas de empresas já foram atendidas pela Sertão e obedecem a legislação ambiental e crescem sem risco.
+          Ianna e João Rafael decidiram juntos usar o conhecimento que acumularam ao longo dos anos para atender diversas empresas e fundar a Sertão Consultoria. Juntos, somam mais de 14 anos de trabalhos realizados na área ambiental. No início o projeto era ambicioso; atender empresas de diversos seguimentos e tamanhos para que pudessem estar em conformidade com a legislação ambiental. Não acreditamos apenas em cumprimento de normas, e sim o atendimento delas como parte importante no processo para que as empresas atendidas se tornassem mais sólidas, fortes e referência no mercado em que atuam. Hoje, varias empresas foram atendidas pela Sertão e obedecem a legislação ambiental para crescem sem risco.
         </p>
       </div>
       <img
