@@ -5,6 +5,11 @@ import projeto3 from "../../assets/projetos/projeto-3.jpg";
 import projeto4 from "../../assets/projetos/projeto-4.jpg";
 import projeto5 from "../../assets/projetos/projeto-5.jpg";
 import projeto6 from "../../assets/projetos/projeto-6.jpg";
+import projeto7 from "../../assets/projetos/projeto-7.jpeg";
+import projeto8 from "../../assets/projetos/projeto-8.jpeg";
+import projeto9 from "../../assets/projetos/projeto-9.jpeg";
+import projeto10 from "../../assets/projetos/projeto-10.jpeg";
+import projeto11 from "../../assets/projetos/projeto-11.jpeg";
 
 import "swiper/css";
 import { Navigation, Pagination } from "swiper";
@@ -58,7 +63,7 @@ export function Projetos() {
         <SwiperSlide>
           <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
             <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
-              Georreferenciamento Imóvel Rural -  Arinos
+              Georreferenciamento Imóvel Rural - Arinos
             </p>
             <img
               className="h-96 mx-auto w-full object-cover"
@@ -103,8 +108,66 @@ export function Projetos() {
             />
           </div>
         </SwiperSlide>
-        
-       
+        <SwiperSlide>
+          <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
+            <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
+              Diagnóstico ambiental para implantação de projeto solar
+            </p>
+            <img
+              className="h-96 mx-auto w-full object-cover"
+              src={projeto7}
+              alt=""
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
+            <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
+              Caracterização ambiental para implantação de energia solar
+            </p>
+            <img
+              className="h-96 mx-auto w-full object-cover"
+              src={projeto8}
+              alt=""
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
+            <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
+              Inventário Florestal para Complexo Eólico - Canudos BA
+            </p>
+            <img
+              className="h-96 mx-auto w-full object-cover"
+              src={projeto9}
+              alt=""
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
+            <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
+              Produção agrícola alinhado à conservação do solo e da água
+            </p>
+            <img
+              className="h-96 mx-auto w-full object-cover"
+              src={projeto10}
+              alt=""
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
+            <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
+              Projeto de recuperação de áreas degradadas
+            </p>
+            <img
+              className="h-96 mx-auto w-full object-cover"
+              src={projeto11}
+              alt=""
+            />
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );
