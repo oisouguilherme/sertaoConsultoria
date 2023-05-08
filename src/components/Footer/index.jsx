@@ -4,13 +4,13 @@ export function Footer(){
   return (
     <div className='bg-gray-200'>
       <div className="md:px-24 px-8 pt-6 flex flex-col lg:flex-row justify-between items-center">
-        <div className="flex flex-col items-center md:items-start">
+        <div className="flex flex-col justify-center items-center">
           <img className='md:h-16 max-w-xs' src={logo} alt="" />
           <div className='py-4'>
             <p className="font-bold text-lg">Nossas redes:</p>
             <div className="flex gap-4">
-              <a className='hover:text-verde'
-              href="#">
+              <a className='hover:text-verde' target='_blank'
+              href="https://www.instagram.com/sertoesconsultoria/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="44"
