@@ -4,6 +4,7 @@ import marcos from "../../assets/marcos.jpeg";
 import murielly from "../../assets/murielly.jpeg";
 import jean from "../../assets/jean.jpeg";
 import lucimara from "../../assets/lucimara.jpeg";
+import priscila from "../../assets/priscila.jpeg";
 
 export function NossoTime() {
   return (
@@ -68,6 +69,12 @@ export function NossoTime() {
           <img className="w-72 cursor-pointer" src={lucimara} alt="Foto de Licimara" />
           <p>
             Lucimara Nazaré Silva Botelho Martins é graduada em Química com doutorado em Agroquímica e técnica em meio ambiente. Atua hoje na Sertões com educação ambiental, gerenciamento resíduos sólidos, gestão ambiental e inventário florestal para processos de regularização ambiental.
+          </p>
+        </div>
+        <div className="lg:w-full lg:px-24 flex-wrap lg:flex-nowrap justify-center text-center lg:text-start flex items-center gap-8 text-xl">
+          <img className="w-72 cursor-pointer" src={priscila} alt="Foto de Licimara" />
+          <p>
+            Priscila Fernandes de Souza, possui graduação e Engenharia Florestal, com doutorado em Recursos Genéticos Vegetais. Atualmente atua na área de licenciamento ambiental, principalmente em processos de regularização para a supressão da flora.
           </p>
         </div>
       </div>
