@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import projeto1 from "../../assets/projetos/projeto-1.jpg";
 import projeto2 from "../../assets/projetos/projeto-2.jpg";
 import projeto3 from "../../assets/projetos/projeto-3.jpg";
-import projeto4 from "../../assets/projetos/projeto-4.jpg";
+import projeto4 from "../../assets/projetos/projeto-4.jpeg";
 import projeto5 from "../../assets/projetos/projeto-5.jpg";
 import projeto6 from "../../assets/projetos/projeto-6.jpg";
 import projeto7 from "../../assets/projetos/projeto-7.jpeg";
@@ -75,7 +75,7 @@ export function Projetos() {
         <SwiperSlide>
           <div className="w-96 relative hover:scale-95 duration-300 cursor-pointer">
             <p className="absolute font-bold w-full text-2xl bg-black py-4 text-white bottom-0 bg-opacity-40 text-center rounded">
-              Inventario Florestal - Parque Eólico Juramento/Francisco Sá
+              Inventario Florestal - Parque Eólico Juramento MG
             </p>
             <img
               className="h-96 mx-auto w-full object-cover"

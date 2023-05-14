@@ -1,4 +1,4 @@
-import servicos from "../../assets/servicos.jpg";
+import servicos from "../../assets/servicos.jpeg";
 
 export function Servicos() {
   return (
