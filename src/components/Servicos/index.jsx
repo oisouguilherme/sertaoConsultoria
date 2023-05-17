@@ -26,7 +26,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Outorga de uso da água
+            Licenciamentos Ambientais
           </li>
           <li className="flex">
             <svg
@@ -39,7 +39,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Licenciamentos ambientais
+            Cadastro Ambiental Rural - CAR
           </li>
           <li className="flex">
             <svg
@@ -52,7 +52,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            CAR, EIA/RIMA, Inventário Florestal
+            Autorização para Intervenção Ambiental - AIA
           </li>
           <li className="flex">
             <svg
@@ -65,7 +65,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Inventário da fauna
+            Estudo e Relatório de Impacto Ambiental - EIA/RIMA
           </li>
           <li className="flex">
             <svg
@@ -78,7 +78,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Gestão ambiental de obra
+            Gestão Ambiental de Obra e Gerenciamento de Resíduos Sólidos
           </li>
           <li className="flex">
             <svg
@@ -91,7 +91,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Resgate e monitoramento de fauna e flora
+            Inventário Florestal e Inventário da Fauna
           </li>
           <li className="flex">
             <svg
@@ -104,7 +104,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Autorização para intervenção ambiental
+            Resgate e Monitoramento de Fauna e Flora
           </li>
           <li className="flex">
             <svg
@@ -117,7 +117,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Georreferenciamento de imóveis
+            Georreferenciamento de Imóveis Rurais e Topografia
           </li>
           <li className="flex">
             <svg
@@ -130,7 +130,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Topografia
+            Laudo de Avaliação Rural 
           </li>
           <li className="flex">
             <svg
@@ -143,7 +143,7 @@ export function Servicos() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
             </svg>
-            Laudo de avaliação rural
+            Outorga de Uso da Água
           </li>
         </ul>
         <img className="lg:w-1/2" src={servicos} alt="" />

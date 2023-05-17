@@ -22,9 +22,9 @@ export function NossoValor() {
           data-aos-delay="300"
           className="text-2xl"
         >
-          <strong>Missão:</strong> Permitir que os empreendimentos trabalhem alinhados com as legislações ambientais vigentes para que possam se desenvolver sem riscos ambientais, econômicos e sociais! <br />
-          <strong>Visão:</strong> Resolver questões ambientais dos empreendimentos com integridade, honestidade e transparência! <br />
-          <strong>Valores:</strong> Integridade, Honestidade, Amor pelo que faz, Ética, Responsabilidade Ambiental, Sustentabilidade, Equilíbrio, Transparência.
+          <strong>Missão:</strong> Assegurar aos empreendedores o uso adequado dos recursos naturais, a conservação e a recuperação dos ecossistemas, contribuindo para a sustentabilidade do desenvolvimento.<br />
+          <strong>Visão:</strong> Ser reconhecida no mercado como uma empresa inovadora, que respeita a legislação ambiental com foco na sustentabilidade, imbuída em proporcionar boas condições de trabalho para seus colaboradores e integração social nas comunidades onde será inserida.<br />
+          <strong>Valores:</strong> Comprometimento, melhoria contínua, inovação, integridade, ética, transparência, eficácia, respeito ao meio ambiente, valorização e capacitação do elemento humano.
         </p>
       </div>
     </div>

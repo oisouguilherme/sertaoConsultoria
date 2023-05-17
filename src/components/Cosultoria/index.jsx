@@ -22,14 +22,7 @@ export function Consultoria() {
           data-aos-delay="100"
           className="text-2xl"
         >
-          A Sertões Consultoria é uma empresa que trabalha com projetos
-          socioambientais aliados ao desenvolvimento econômico, visando a
-          proteção dos recursos ambientais, a valorização e bem-estar das
-          pessoas envolvidas e a otimização dos recursos, prezando sempre por
-          agilidade e qualidade nos serviços prestados. Trabalhamos com uma
-          equipe multidisciplinar, sempre atenta às legislações vigentes,
-          atendendo de forma satisfatória as exigências do mercado e as
-          necessidades dos empreendedores.
+          A Sertões Consultoria é uma empresa que trabalha com projetos socioambientais aliados ao desenvolvimento econômico, visando a proteção dos recursos ambientais, a valorização e bem-estar das pessoas envolvidas e a otimização dos recursos, prezando sempre por agilidade e qualidade nos serviços prestados. Trabalhamos com uma equipe multidisciplinar, sempre atenta às legislações vigentes, atendendo de forma satisfatória as exigências do mercado e as necessidades dos empreendedores.
         </p>
       </div>
     </div>
