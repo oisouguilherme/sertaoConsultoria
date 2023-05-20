@@ -145,6 +145,19 @@ export function Servicos() {
             </svg>
             Outorga de Uso da Água
           </li>
+          <li className="flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="currentColor"
+              class="bi bi-dot"
+              viewBox="0 0 16 16"
+            >
+              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+            </svg>
+            Programa de Recuperação de Áreas Degradas - PRAD
+          </li>
         </ul>
         <img className="lg:w-1/2" src={servicos} alt="" />
       </div>
